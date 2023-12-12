@@ -1,0 +1,8 @@
+// Создание таблицы БД
+CREATE TABLE TeacherCourse (
+    id SERIAL PRIMARY KEY,
+    teacher_name VARCHAR(255),
+    age INT,
+    course_name VARCHAR(255),
+    hours INT
+);
